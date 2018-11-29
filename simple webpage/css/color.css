@@ -1,0 +1,51 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    margin-left: 10px;
+    padding: 5px;
+}
+#colorName {
+    border: none;
+    padding: 6px;
+    border-bottom: 4px solid rgba(48, 126, 24, 0.849);
+    width: 12%;
+    font-size: 24px;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+#colorName:focus {
+    width: 15%;
+}
+button {
+    border: 1px solid rgba(48, 126, 24, 0.849);
+    border-radius: 12px/8px;
+    margin: 5px;
+    padding: 8px;
+    width: 100px;
+    font-size: 16px;
+    background-color:white;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px grey;
+    transition: all ease-in-out;
+    transition-duration: 0.5s;
+}
+button:hover {
+    box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.747);
+}
+.clr_  change {
+    background-color: white;
+    box-shadow: 0px 0px 0px gray;
+    transition: all ease-in-out;
+    transition-duration: 2s;
+}
+.margin{
+    padding: 8px;
+    border-radius: 12px;
+}
+.brd{
+    border: 2px solid red;
+}
+.marg{
+    margin-top: 4px;
+}
